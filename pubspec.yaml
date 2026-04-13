@@ -1,0 +1,19 @@
+name: speed_breaker_alert
+description: Full Speed Breaker Alert App
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^10.1.0
+  sensors_plus: ^4.0.2
+  flutter_tts: ^3.8.5
+  sqflite: ^2.3.0
+  path_provider: ^2.1.2
+  wakelock_plus: ^1.1.4
+  csv: ^5.0.2
+
+flutter:
+  uses-material-design: true
